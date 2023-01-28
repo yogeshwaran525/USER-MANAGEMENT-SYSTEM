@@ -1,0 +1,25 @@
+{
+  "name": "usermanagementsystem",
+  "version": "1.0.0",
+  "description": "User Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-validator": "^6.14.3",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
